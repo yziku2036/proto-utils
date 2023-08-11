@@ -1,0 +1,6 @@
+{
+  "item.proto_utils.example_item": "Example Item",
+  "item.proto_utils.test_item": "テスト アイテム",
+  "block.proto_utils.example_block": "Example Block",
+  "block.proto_utils.test_block": "テスト ブロック"
+}
