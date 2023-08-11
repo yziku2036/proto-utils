@@ -10,7 +10,7 @@ import net.minecraft.world.level.material.MaterialColor
 import net.minecraftforge.registries.DeferredRegister
 import net.minecraftforge.registries.ForgeRegistries
 class BlockInit {
-    public var BLOCKS: DeferredRegister<Block> = DeferredRegister.create(
+    val BLOCKS: DeferredRegister<Block> = DeferredRegister.create(
         ForgeRegistries.BLOCKS,
         ProtoUtils.MOD_ID
     )
