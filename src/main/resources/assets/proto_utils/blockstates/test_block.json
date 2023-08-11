@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "proto_utils:block/test_block"
+    }
+  }
+}

@@ -19,7 +19,7 @@ object ProtoUtils {
     private val LOGGER: Logger = LogManager.getLogger(MOD_ID)
     val PROTO_UTILS_TAB :CreativeModeTab = object :CreativeModeTab(MOD_ID) {
         override fun makeIcon(): ItemStack {
-            return ItemInit().EXAMPLE_ITEM.get().defaultInstance
+            return ItemInit().TEST_ITEM.get().defaultInstance
         }
     }
     init {
@@ -29,7 +29,7 @@ object ProtoUtils {
                 clientTarget = {
                     MOD_BUS.addListener(ProtoUtils::onClientSetup)
                 },
-            serverTarget = {
+                serverTarget = {
                 FORGE_BUS.addListener(ProtoUtils::onServerAboutToStart)
             }
         ))
