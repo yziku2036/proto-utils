@@ -1,6 +1,7 @@
 package hmjn023.protoutils.core
 
 import hmjn023.protoutils.ProtoUtils
+import hmjn023.protoutils.block.TestBlock
 import net.minecraft.world.level.block.Block
 import net.minecraft.world.level.block.Blocks
 import net.minecraft.world.level.block.state.BlockBehaviour
@@ -11,12 +12,12 @@ import net.minecraftforge.registries.ForgeRegistries
 
 
 class BlockInit {
-    public var blockDeferredRegister: DeferredRegister<Block> = DeferredRegister.create(
+    public var BLOCKS: DeferredRegister<Block> = DeferredRegister.create(
         ForgeRegistries.BLOCKS,
         ProtoUtils.MOD_ID
     )
 
-    val EXAMPLE_BLOCK = blockDeferredRegister.register(
+    val EXAMPLE_BLOCK = BLOCKS.register(
         "example_block"
     ) {
         Block(
@@ -28,10 +29,10 @@ class BlockInit {
         )
     }
 
-    val TESTBLOCK = blockDeferredRegister.register(
+    val TESTBLOCK = BLOCKS.register(
         "test_block",
     ) {
-        Block(
+        TestBlock(
             BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK)
         )
     }

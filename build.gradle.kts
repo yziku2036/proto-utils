@@ -77,7 +77,7 @@ tasks {
     withType<KotlinCompile> {
         kotlinOptions {
             jvmTarget = javaVersion.toString()
-            languageVersion ="1.9"
+            languageVersion ="2.0"
         }
     }
     java {
