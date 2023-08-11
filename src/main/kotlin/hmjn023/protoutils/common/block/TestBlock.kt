@@ -5,9 +5,6 @@ import net.minecraft.world.level.block.state.BlockBehaviour.Properties
 
 
 class TestBlock(properties: Properties) :Block(properties){
-    init {
-
-    }
 }
 
 
