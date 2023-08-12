@@ -1,6 +1,7 @@
 package hmjn023.protoutils.core
 
 import hmjn023.protoutils.ProtoUtils
+import hmjn023.protoutils.common.item.Lightning_Staff
 import hmjn023.protoutils.common.item.TestItem
 import net.minecraft.client.renderer.item.ItemProperties
 import net.minecraft.world.item.BlockItem
@@ -24,6 +25,14 @@ class ItemInit {
         "test_item"
     ){
         TestItem(
+            Item.Properties().tab(ProtoUtils.PROTO_UTILS_TAB)
+        )
+    }
+
+    val LIGHTNINT_STAFF = ITEMS.register(
+        "lightning_staff"
+    ){
+        Lightning_Staff(
             Item.Properties().tab(ProtoUtils.PROTO_UTILS_TAB)
         )
     }

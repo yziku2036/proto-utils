@@ -1,6 +1,7 @@
 {
   "item.proto_utils.example_item": "Example Item",
   "item.proto_utils.test_item": "Test Item",
+  "item.proto_utils.lightning_staff": "Lightning Staff",
   "block.proto_utils.example_block": "Example Block",
   "block.proto_utils.test_block": "Test Block"
 }
