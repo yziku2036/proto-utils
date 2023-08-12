@@ -1,7 +1,7 @@
 package hmjn023.protoutils.core
 
 import hmjn023.protoutils.ProtoUtils
-import hmjn023.protoutils.block.TestBlock
+import hmjn023.protoutils.common.block.TestBlock
 import net.minecraft.world.level.block.Block
 import net.minecraft.world.level.block.Blocks
 import net.minecraft.world.level.block.state.BlockBehaviour
@@ -9,6 +9,7 @@ import net.minecraft.world.level.material.Material
 import net.minecraft.world.level.material.MaterialColor
 import net.minecraftforge.registries.DeferredRegister
 import net.minecraftforge.registries.ForgeRegistries
+
 class BlockInit {
     val BLOCKS: DeferredRegister<Block> = DeferredRegister.create(
         ForgeRegistries.BLOCKS,
