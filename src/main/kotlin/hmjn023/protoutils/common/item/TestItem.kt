@@ -19,4 +19,5 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.nbt.CompoundTag;
     class TestItem(properties: Properties?) : Item(properties) {
+
     }
